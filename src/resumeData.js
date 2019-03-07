@@ -8,9 +8,9 @@ let resumeData = {
     "roleDescription": "존나 취직하고 싶어",
     "socialLinks":[
         {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-          "className":"fa fa-linkedin"
+          "name":"email",
+          "url":"mailto:lee@zerobell.xyz",
+          "className":"fa fa-envelope"
         },
         {
           "name":"github",
@@ -18,9 +18,9 @@ let resumeData = {
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "name":"tistory",
+          "url":"https://seolin.tistory.com",
+          "className":"fa fa-home"
         }
       ],
     "aboutme":"안녕하신가. 힘세고 강한 아침!",
@@ -32,7 +32,7 @@ let resumeData = {
         "specialization":"Japanese Linguistic, Software Convergence",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2019",
-        "Achievements":"뭔가 함"
+        "Achievements":["Worked as Teaching Assistant of Computer Programming(C Language) 2018 1st Sememster"]
       }
     ],
     "work":[
@@ -52,18 +52,18 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
+        "name":"현-미-농",
+        "description":"내 친구들 중 누가 더 지옥에 살고 있을까?",
         "imgurl":"images/portfolio/girl.jpg"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
+        "name":"카카오톡 분석기",
+        "description":"우리 언어생활을 고찰하며",
         "imgurl":"images/portfolio/coffee.jpg"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
+        "name":"LogINN",
+        "description":"체크인을 바코드로 편리하게",  
         "imgurl":"images/portfolio/origami.jpg"
       }
     ],

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -14,21 +15,20 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#about">About</a></li>
              <li><a className="smoothscroll" href="#resume">Resume</a></li>
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
+               <h1 className="responsive-headline" style={{fontFamily: 'Alfa Slab One'}}>{resumeData.name}</h1>
+               <h3 style={{color:'#fff', fontFamily:'Yellowtail', fontSize: '40px'}}>{resumeData.role}
                </h3>
                <hr/>
                <ul className="social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
-                      return(
+                        return(
                               <li key={item.name}>
                                 <a href={item.url} target="_blank"><i className={item.className}></i></a>
                               </li>

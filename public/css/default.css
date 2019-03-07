@@ -805,3 +805,8 @@ properly.
 
 
 
+/* Custom */
+
+.responsive-headline {
+   text-decoration: underline;
+}
