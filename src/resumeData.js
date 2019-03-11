@@ -32,7 +32,7 @@ let resumeData = {
         "specialization":"Japanese Linguistic, Software Convergence",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2019",
-        "Achievements":["Worked as Teaching Assistant of Computer Programming(C Language) 2018 1st Sememster"]
+        "Achievements":["2018-1 컴퓨터 프로그래밍1 (C언어) 실습조교로 근무"]
       }
     ],
     "work":[
