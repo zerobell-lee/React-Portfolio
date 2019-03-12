@@ -335,6 +335,10 @@
       line-height: 54px;
    }
 
+   #project-details h1 {
+      text-align: center;
+   }
+
 
 }
 
