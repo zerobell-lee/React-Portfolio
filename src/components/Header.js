@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 export default class Header extends Component {
   render() {
@@ -8,14 +9,14 @@ export default class Header extends Component {
       
       <header id="home">
          <nav id="nav-wrap">
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+            <HashLink className="mobile-btn" to="#nav-wrap" title="Show navigation">Show navigation</HashLink>
+          <HashLink className="mobile-btn" to="#" title="Hide navigation">Hide navigation</HashLink>
             <ul id="nav" className="nav">
-               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-               <li><a className="smoothscroll" href="#about">About</a></li>
-             <li><a className="smoothscroll" href="#resume">Resume</a></li>
-               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-               <li><a className="smoothscroll" href="#contact">Contact</a></li>
+               <li className="current"><HashLink className="smoothscroll" to="#home">Home</HashLink></li>
+               <li><HashLink className="smoothscroll" to="#about">About</HashLink></li>
+             <li><HashLink className="smoothscroll" to="#resume">Resume</HashLink></li>
+               <li><HashLink className="smoothscroll" to="#portfolio">Works</HashLink></li>
+               <li><HashLink className="smoothscroll" to="#contact">Contact</HashLink></li>
             </ul>
          </nav>
 
