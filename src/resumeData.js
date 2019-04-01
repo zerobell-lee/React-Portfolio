@@ -69,8 +69,8 @@ let resumeData = {
       {
         "name":"LogINN",
         "description":"체크인을 바코드로 편리하게",  
-        "imgurl":"images/portfolio/origami.jpg",
-        "link":"#"
+        "imgurl":"images/portfolio/loginn.png",
+        "link":"LogINN"
       }
     ],
     "testimonials":[
@@ -110,6 +110,22 @@ let resumeData = {
         duration: '2주일',
         article: [{title: 'github - ChatLogAnalyzer', url: 'https://github.com/zerobell-lee/ChatLogAnalyzer'}],
         references: [{title: '카카오톡 채팅 분석기', url: 'http://zerobell.xyz/kakao'}]
+      },
+      LogINN: {
+        title: "Log-INN",
+        img: "../images/portfolio/loginn.png",
+        overview: ["새로운 손님이 올 때마다 도어락 비밀번호 재설정..",
+                  "원격으로, 무작위로 비밀번호를 설정할 순 없을까?",
+                  "들어가는 방법은 바코드로!"],
+        description: ["MQTT 프로토콜을 이용한 바코드 스마트도어록 시스템입니다.", 
+                      "호스트가 서버상에서 발급 버튼을 누르면 서버는 무작위 비밀번호를 발급하고, 이를 투숙객에게 메일로 전송합니다.",
+                    "도어락에 연결된 컨트롤러가 바코드 리더기로 바코드를 읽어들인 후, 도어락을 제어합니다."],
+        stack: [],
+        duration: '1개월',
+        article: [{title: 'github - loginn-rasp', url: 'https://github.com/zerobell-lee/loginn-rasp'},
+                  {title: 'github - loginn-web', url: 'https://github.com/zerobell-lee/loginn-web'},
+                  {title: 'github - loginn-arduino', url: 'https://github.com/zerobell-lee/loginn-arduino'}],
+        references: [{title: 'Youtube - LogINN', url: 'https://www.youtube.com/watch?v=tddKhQaHOvI'}]
       }
     }
   }

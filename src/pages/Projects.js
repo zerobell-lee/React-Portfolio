@@ -118,6 +118,41 @@ class Projects extends Component {
                                                 </ul>
                                             </ul>
                                     </ul>}
+                                    {id==='LogINN' && <ul>
+                                        <li>Server</li>
+                                            <ul>
+                                                <li>WAS Framework</li>
+                                                <ul>
+                                                    <li>Node.js Express</li>
+                                                </ul>
+                                                <li>Database</li>
+                                                <ul>
+                                                    <li>MariaDB</li>
+                                                </ul>
+                                                <li>MQTT Broker</li>
+                                                <ul>
+                                                    <li>Mosquitto</li>
+                                                </ul>
+                                            </ul>
+                                        <li>Local</li>
+                                            <ul>
+                                                <li>Controller</li>
+                                                <ul>
+                                                    <li>Raspberry Pi</li>
+                                                    <ul>
+                                                        <li>MQTT Client</li>
+                                                        <ul>
+                                                            <li>Mosquitto</li>
+                                                        </ul>
+                                                    </ul>
+                                                    <li>Arduino UNO</li>
+                                                    <ul>
+                                                        <li>Barcode Scanner</li>
+                                                        <li>Doorlock</li>
+                                                    </ul>
+                                                </ul>
+                                            </ul>
+                                        </ul>}
                                 </div>
                             </div>
                         </div>
