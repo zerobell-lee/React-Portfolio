@@ -122,7 +122,8 @@ let resumeData = {
                     "도어락에 연결된 컨트롤러가 바코드 리더기로 바코드를 읽어들인 후, 도어락을 제어합니다."],
         stack: [],
         duration: '1개월',
-        article: [{title: 'github - loginn-rasp', url: 'https://github.com/zerobell-lee/loginn-rasp'},
+        article: [{title: 'LogINN (MQTT를 이용한 스마트 도어록 프로젝트) 후기', url: 'https://seolin.tistory.com/110'},
+                  {title: 'github - loginn-rasp', url: 'https://github.com/zerobell-lee/loginn-rasp'},
                   {title: 'github - loginn-web', url: 'https://github.com/zerobell-lee/loginn-web'},
                   {title: 'github - loginn-arduino', url: 'https://github.com/zerobell-lee/loginn-arduino'}],
         references: [{title: 'Youtube - LogINN', url: 'https://www.youtube.com/watch?v=tddKhQaHOvI'}]
