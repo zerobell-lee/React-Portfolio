@@ -74,7 +74,7 @@ export default  class Resume extends Component {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+   				<div>
 
    				   <ul className="skills">
                 {
@@ -82,8 +82,7 @@ export default  class Resume extends Component {
                     return(
                       <li>
                         
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em><i className={item.icon}></i> {item.skillname}</em>
+                      <i className={item.icon}></i> {item.skillname}
                       </li>
                     )
                   })

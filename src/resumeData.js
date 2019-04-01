@@ -38,7 +38,7 @@ let resumeData = {
     "work":[
 
     ],
-    "skillsDescription":"제가 주관적으로 생각하는 성취도입니다.",
+    "skillsDescription":"제가 주력으로 사용하는 스킬들입니다.",
     "skills":[
       {
         "skillname":"Python",

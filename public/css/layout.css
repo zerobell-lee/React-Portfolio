@@ -285,16 +285,14 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
-.bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
-}
-.bars .skills {
+.skills {
+   font-size: 20px;
   	margin-top: 36px;
    list-style: none;
+   color: #313131;
 }
+
+
 .bars li {
    position: relative;
   	margin-bottom: 60px;
